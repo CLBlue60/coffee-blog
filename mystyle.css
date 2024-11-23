@@ -27,6 +27,18 @@ p {
   letter-spacing: 2px;
   font-size: 12px;
 }
+.btn-more2 {
+  display: inline-block;
+  background-color: sienna;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
 
 /*header*/
 header {
@@ -36,4 +48,13 @@ header {
   color: white;
   height: 350px;
   text-align: center;
+}
+
+/*footer*/
+footer {
+  background-color: black;
+  color: white;
+  display: block;
+  text-align: center;
+  letter-spacing: 1px;
 }
