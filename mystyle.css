@@ -8,6 +8,10 @@ img {
 p {
   line-height: 2;
 }
+h1 {
+  color: white;
+  text-decoration-line: underline;
+}
 
 /*utilities*/
 .container {
@@ -15,9 +19,8 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-.btn-more {
+.btn {
   display: inline-block;
-  background-color: sienna;
   color: white;
   padding: 5px;
   margin-top: 5px;
@@ -26,23 +29,27 @@ p {
   text-decoration: none;
   letter-spacing: 2px;
   font-size: 12px;
+}
+.btn {
+  background-color: black;
 }
 .btn-more2 {
-  display: inline-block;
   background-color: sienna;
-  color: white;
-  padding: 5px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 2px;
-  font-size: 12px;
+}
+.bottom-line {
+border-bottom: 1px solid lightgray;
+margin-bottom: 10px;
+}
+/*header*/
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-/*header*/
-header {
-  background-image: url(./img/banner.jpg);
+.site-header {
+ background-image: url(img/banner.jpg);
   background-position: center center;
   background-size: cover;
   color: white;
@@ -50,6 +57,23 @@ header {
   text-align: center;
 }
 
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.main-flex{
+  display: flex;
+}
+.blog-container{
+  width: 40%;
+  margin-right: 20px;
+}
+.courses-container{
+  width: 40%;
+  margin-left: 25px;
+}
 /*footer*/
 footer {
   background-color: black;
@@ -57,4 +81,15 @@ footer {
   display: block;
   text-align: center;
   letter-spacing: 1px;
+}
+footer a{
+  color: white;
+
+}
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
 }
