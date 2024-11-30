@@ -1,40 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffee Blog</title>
-    <link rel="stylesheet" href="mystyle.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="menu-bar">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Blog</title>
+  <link rel="stylesheet" href="mystyle.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="menu-bar">
       <a href="index.html"><h1>Coffee Blog</h1>
-      <nav>
+        <nav class="menu">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="courses.html">Courses</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+  </header>
+  <main class="container">
+    <h2>Contact</h2>
+
+    <div class="contact-container">
+      <div class="contact-img">
+        <img src="/img/contact.jpg" alt="Coffee cups">
+      </div>
+      <div class="contact-form">
+
+
+    <div class="input-control">
+      <label>Name:</label>
+      <input type="text">
+    </div>
+    <div class="input-control">
+      <label>Email:</label>
+      <input type="email">
+    </div>
+    <div class="input-control">
+      <label>Message</label>
+      <textarea></textarea>
+    </div>
+    <div>
+      <button class="btn btn-more">Register</button>
+    </div>
+  </main>
+
+  <footer>
+<div class="menu-bar">
+      <a href="index.html"><h1>Coffee Blog</h1>
+      <nav class="menu">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="courses.html">Courses</a>
         <a href="contact.html">Contact</a>
       </nav>
       </div>
-      <h2>Coffee Blog with tips and courses</h2>
-      <p>Learn from the experts with the best recipes and tips</p>
-    </header>
-<main class="container">
-  <h2>Contact</h2>
+  </footer>
 
-  </main>
+</body>
 
-<footer>
-        <div class="menu-bar">
-        <h1>Coffe Blog</h1>
-        <nav class="menu">
-      <a href="about.html">About us</a>
-      <a href="courses.html">Courses</a>
-      <a href="contact.html">Contact</a>
-      </nav>
-      </div>
-    </footer>
-
-  </body>
-  </html>
+</html>
